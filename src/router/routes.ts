@@ -1,6 +1,6 @@
 const routes = [
   {
-    path: '/login',
+    path: '/',
     component: () => import('@/pages/login.vue'), //路由懒加载
   },
   {

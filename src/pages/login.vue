@@ -7,7 +7,9 @@
 </template>
 
 <script setup lang="ts">
-// console.log(import.meta.env.VITE_BASE_URL);
+import { getList } from '@/apis/user';
+
+getList({ id: 2 });
 </script>
 
 <style lang="scss">

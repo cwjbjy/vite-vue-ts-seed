@@ -21,6 +21,7 @@
     "@element-plus/icons-vue": "^2.1.0",
     "axios": "^1.4.0",
     "element-plus": "^2.3.4",
+    "lodash-es": "^4.17.21",
     "pinia": "^2.0.35",
     "vue": "^3.4.15",
     "vue-router": "^4.1.6"
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
+    "@types/lodash-es": "^4.17.12",
     "@types/node": "^20.11.5",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",

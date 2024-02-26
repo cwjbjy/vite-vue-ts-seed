@@ -1,0 +1,9 @@
+[data-theme='black'] {
+  /* 字体 */
+  --font-primary: #fff;
+  --font-highlight: #434a50;
+  /* 布局 */
+  --background-header: #303030;
+  --background-aside: #303030;
+  --background-main: #393939;
+}

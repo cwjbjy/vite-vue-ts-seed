@@ -1,4 +1,9 @@
 [data-theme='default'] {
-  --font-primary: #0171f6;
-  --card-primary: #f1f6fe;
+  /* 字体 */
+  --font-primary: #fff;
+  --font-highlight: #434a50;
+  /* 布局 */
+  --background-header: #2f3542;
+  --background-aside: #545c64;
+  --background-main: #0678be;
 }

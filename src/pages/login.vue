@@ -2,7 +2,7 @@
   <div>
     <select name="pets" @change="handleChange">
       <option value="default">默认色</option>
-      <option value="red">红色</option>
+      <option value="black">黑色</option>
     </select>
     <div>登录页面</div>
   </div>
@@ -17,9 +17,6 @@ const handleChange = (e: Event) => {
 <style lang="scss">
 body {
   color: var(--font-primary);
-  background-color: var(--card-primary);
+  background-color: var(--background-main);
 }
-/* body {
-  filter: grayscale(1);
-} */
 </style>

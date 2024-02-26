@@ -24,7 +24,7 @@ const handleChange = (e: Event) => {
   window.document.documentElement.setAttribute('data-theme', selectTheme);
 };
 
-const prepareDomain = () => {
+const drawGraph = () => {
   let echartsInstance = echarts.getInstanceByDom(echartRef.value!);
   if (!echartsInstance) {
     echartsInstance = echarts.init(echartRef.value);
@@ -77,10 +77,10 @@ const prepareDomain = () => {
   echartsInstance.setOption(option);
 };
 onMounted(() => {
-  prepareDomain();
+  drawGraph();
 });
 watch(theme, () => {
-  prepareDomain();
+  drawGraph();
 });
 </script>
 

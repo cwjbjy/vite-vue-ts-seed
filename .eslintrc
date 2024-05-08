@@ -6,11 +6,11 @@
   },
   "parser": "vue-eslint-parser",
   "extends": [
-    "eslint:recommended",
-    "plugin:vue/vue3-recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
-    "eslint-config-prettier"
+    "eslint:recommended", //继承 ESLint 内置的推荐规则
+    "plugin:vue/vue3-recommended", // 继承 Vue.js 3 的推荐规则
+    "plugin:@typescript-eslint/recommended", //继承 TypeScript ESLint 插件的推荐规则
+    "plugin:prettier/recommended", //继承 Prettier 的推荐规则
+    "eslint-config-prettier" //关闭 ESLint 中与 Prettier 冲突的规则
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
@@ -23,7 +23,7 @@
   "plugins": ["vue", "@typescript-eslint", "prettier"],
   "rules": {
     "vue/multi-word-component-names": "off", // 禁用vue文件强制多个单词命名
-    "@typescript-eslint/no-explicit-any": ["off"], //允许使用any
+    "@typescript-eslint/no-explicit-any": "off", //允许使用any
     "@typescript-eslint/no-this-alias": [
       "error",
       {

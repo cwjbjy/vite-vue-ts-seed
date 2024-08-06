@@ -21,6 +21,9 @@
     "@element-plus/icons-vue": "^2.1.0",
     "axios": "^1.4.0",
     "element-plus": "^2.3.4",
+    "fs-extra": "^11.2.0",
+    "http": "^0.0.1-security",
+    "multiparty": "^4.2.3",
     "pinia": "^2.0.35",
     "vue": "^3.4.15",
     "vue-router": "^4.1.6"

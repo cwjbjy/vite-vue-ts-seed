@@ -8,4 +8,5 @@
 | feature/echart-drill | 地图钻取，点击进入下一级行政区 |
 | feature/threejs      |     使用 threejs 画 3D 图      |
 | feature/waterfall    |     使用 js 实现瀑布流布局     |
-| feature/css    |     切换主题色     |
+| feature/css          |     切换主题色     |
+| feature/upload          |     大文件上传与断点续传     |
